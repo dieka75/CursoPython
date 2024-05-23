@@ -164,3 +164,15 @@ if dentroRango:
 else:
     print(f'El valor {valor} esta fuera del rango')
 
+vacaciones = True
+descanso = False
+
+if vacaciones or descanso:
+    print('Puede asistir')
+else:
+    print('No puede asistir')
+
+if not vacaciones or descanso:
+    print('Tiene trea pendiente')
+else:
+    print('Puede asistir')
