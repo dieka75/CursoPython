@@ -123,3 +123,10 @@ resultado = (a < b)
 print(f'Resultado  de <: {resultado}')
 resultado = (a <= b)
 print(f'Resultado  de <=: {resultado}')
+
+#Par o inpar
+a = int(input('Escribe el valor numerico: '))
+if a % 2 == 0:
+    print(f'El valor {a} es un numero par')
+else:
+    print(f'El valor {a} es un numero inpar')
