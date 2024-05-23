@@ -130,3 +130,11 @@ if a % 2 == 0:
     print(f'El valor {a} es un numero par')
 else:
     print(f'El valor {a} es un numero inpar')
+
+#mayor de edad
+edad = 18
+edad = int(input('Ingrese la edad de la persona:'))
+if edad >= 18:
+    print(f'La persona con edad: {edad} es adulto')
+else:
+    print(f'La persona con edad: {edad} es menor de edad')
