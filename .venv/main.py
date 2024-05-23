@@ -1,3 +1,4 @@
+
 print("Hola Mundo con Python")
 
 #enviar un saludo a la consola utilizando python
@@ -98,4 +99,27 @@ area = alto * ancho
 perimetro = (alto + ancho) * 2
 print(f'Area: {area}')
 print(f'Perimetro: {perimetro}')
-#final
+
+#Operadores de asignacion
+miVariable = 10
+print(miVariable)
+miVariable += 1
+print(miVariable)
+miVariable -= 2
+print(miVariable)
+
+#Operadores de comparacion
+a = 4
+b = 2
+resultado = (a == b)
+print(f'Resultado  de ==: {resultado}')
+resultado = (a != b)
+print(f'Resultado  de !=: {resultado}')
+resultado = (a > b)
+print(f'Resultado  de >: {resultado}')
+resultado = (a >= b)
+print(f'Resultado  de >=: {resultado}')
+resultado = (a < b)
+print(f'Resultado  de <: {resultado}')
+resultado = (a <= b)
+print(f'Resultado  de <=: {resultado}')
