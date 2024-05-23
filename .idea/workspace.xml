@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abac49d5-d16d-4763-8fb3-4c40ba6ded94" name="Changes" comment="mayor de edad" />
+    <list default="true" id="abac49d5-d16d-4763-8fb3-4c40ba6ded94" name="Changes" comment="operadores logicos">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,7 +228,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716502117097</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="operadores logicos">
+      <option name="closed" value="true" />
+      <created>1716502546542</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1716502546542</updated>
+    </task>
+    <task id="LOCAL-00018" summary="operadores logicos">
+      <option name="closed" value="true" />
+      <created>1716502757869</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1716502757869</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,8 +265,8 @@
     <MESSAGE value="operaciones aritmeticas" />
     <MESSAGE value="operadores de asignacion" />
     <MESSAGE value="par o impar" />
-    <MESSAGE value="operadores logicos" />
     <MESSAGE value="mayor de edad" />
-    <option name="LAST_COMMIT_MESSAGE" value="mayor de edad" />
+    <MESSAGE value="operadores logicos" />
+    <option name="LAST_COMMIT_MESSAGE" value="operadores logicos" />
   </component>
 </project>

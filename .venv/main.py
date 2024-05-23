@@ -176,3 +176,56 @@ if not vacaciones or descanso:
     print('Tiene trea pendiente')
 else:
     print('Puede asistir')
+
+#ejercico decadas
+edad = int(input('Ingrese su edad: '))
+
+menorDiez = edad >=0 and edad <10
+diezypico = edad >=10 and edad <20
+veintipico = edad >= 20 and edad <30
+treintipico = edad >=30 and edad <40
+cuarentipico = edad >=40 and edad <50
+cincuentipico = edad >=50 and edad <60
+sesentipico = edad >=60 and edad <70
+setentipico = edad >=70 and edad <80
+ochentipico = edad >=80 and edad <90
+noventipico = edad >=90 and edad <100
+cientoypico = edad >= 100 and edad<200
+
+if menorDiez:
+    print(f'Si tu edad es de: {edad} estas dentro de tu primer decada')
+else:
+    if diezypico:
+        print(f'Si tu edad es de: {edad} estas dentro de tu segunda decada')
+    else:
+        if veintipico:
+            print(f'Si tu edad es de: {edad} estas dentro de tu tercera decada')
+        else:
+            if treintipico:
+                print(f'Si tu edad es de: {edad} estas dentro de tu cuarta decada')
+            else:
+                if cuarentipico:
+                    print(f'Si tu edad es de: {edad} estas dentro de tu quinta decada')
+                else:
+                    if cincuentipico:
+                        print(f'Si tu edad es de: {edad} estas dentro de tu sexta decada')
+                    else:
+                        if sesentipico:
+                            print(f'Si tu edad es de: {edad} estas dentro de tu septima decada')
+                        else:
+                            if setentipico:
+                                print(f'Si tu edad es de: {edad} estas dentro de tu octava decada')
+                            else:
+                                if ochentipico:
+                                    print(f'Si tu edad es de: {edad} estas dentro de tu novena decada')
+                                else:
+                                    if noventipico:
+                                        print(f'Si tu edad es de: {edad} estas dentro de tu decima decada')
+                                    else:
+                                        if cientoypico:
+                                            print(f'Si tu edad es de: {edad} estas dentro de tu segundo siglo')
+                                        else:
+                                            print(f'Si tu edad es de: {edad} sos un extraterrestre!!!')
+
+
+
