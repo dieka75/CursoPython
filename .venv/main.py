@@ -138,3 +138,16 @@ if edad >= 18:
     print(f'La persona con edad: {edad} es adulto')
 else:
     print(f'La persona con edad: {edad} es menor de edad')
+
+#Operadores logicos
+a = True
+b = True
+
+resultado = a and b
+print(resultado)
+
+resultado = a or b
+print(resultado)
+
+resultado = not a
+print(resultado)
