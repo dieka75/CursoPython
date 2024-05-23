@@ -151,3 +151,16 @@ print(resultado)
 
 resultado = not a
 print(resultado)
+
+#Operadores logicos
+valor = int(input('Escribe el valor: '))
+valorMinimo = 0
+valorMaximo = 5
+
+#dentroRango = (valor >= 0) and (valor <= 5)
+dentroRango = valor >= 0 and valor <= 5
+if dentroRango:
+    print(f'El valor {valor} esta dentro del Rango')
+else:
+    print(f'El valor {valor} esta fuera del rango')
+
